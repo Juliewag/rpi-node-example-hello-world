@@ -1,9 +1,13 @@
 {
-  "name": "node-hello-world",
+  "name": "FJ test app",
   "private": true,
   "version": "0.0.1",
-  "description": "Node.js Hello world app on docker",
+  "description": "a simple node.js example app",
   "author": "hypriot.com",
+  "main": "index.js",
+  "script":{
+    "start": "http-server ./" 
+  }
   "dependencies": {
     "express": "4.12.0"
   }
