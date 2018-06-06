@@ -7,7 +7,7 @@
   "main": "index.js",
   "script":{
     "start": "http-server ./" 
-  }
+  },
   "dependencies": {
     "express": "4.12.0"
   }
